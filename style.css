@@ -1,0 +1,241 @@
+ 
+*{
+    padding: 0px;
+    margin: 0px;
+       
+ }
+ body{
+    background-image:url('img/fondo.jpg') ;
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ h1{
+   margin:40px 20px 5px 15px;
+
+   text-align: center;
+   text-shadow: 20px blue;
+   color: rgb(78, 80, 94);
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 24px;
+   
+
+ }
+ main{
+    background:rgba(24, 27, 43, 0.822/50);
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(148, 143, 143);
+    font-size: 30px;
+    margin: 10px 20px 40px 20px;
+ }
+h4{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:rgb(101, 105, 105);
+  font-size: 20px;
+  margin: 30px;
+ } 
+   
+ /*BOTON VALIDAR*/
+#sendForm{
+   width: 200px;
+   height: 50px;
+   border-radius: 8px;
+   border: 0px solid;
+   background-color: rgb(22, 22, 48);
+   color:rgba(236, 235, 232, 0.705) ;
+   position: absolute;
+   bottom: 55px;
+   left: 90px;
+   font-size: 15px;
+   box-shadow: 0px 0px 15px 2px rgb(92, 91, 91);
+}
+#sendForm:hover{
+   background-color:rgba(82, 126, 113, 0.925);
+}
+/*BOTON REGRESAR*/
+ #comeBack{
+   width: 200px;
+   height: 50px;
+   border-radius: 8px;
+   border: 0px solid;
+   background-color: rgb(22, 22, 48);
+   color:rgba(236, 235, 232, 0.705) ;
+   position: absolute;
+   bottom: 55px;
+   left: 95px;
+   font-size: 15px;
+   box-shadow: 0px 0px 15px 2px rgb(92, 91, 91);
+} 
+
+#comeBack:hover{
+   background-color:rgba(82, 126, 113, 0.925);
+}
+
+/* DIV FORM*/
+#form{
+    background-color:  rgb(214, 211, 211);
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    padding: 15px;
+    border-radius:20px;
+    box-shadow: 0px 0px 90px 3px rgb(133, 133, 141);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    font-size: 12px;
+}
+#form img{
+   width: 250px;
+   top: 110px;
+}
+.numTarjet{
+   width: 320px;
+   height: 60px;
+   margin: auto;
+   top: 100px;
+   border: 1px solid rgb(168, 167, 167);
+   box-shadow: 0px 0px 5px -1px rgb(169, 179, 180);
+   background-color: rgba(188, 190, 190, 0.226);
+   border-radius: 0px 0px 8px 8px;
+   position: absolute;
+   left: 28px;
+   bottom: 5px;
+   color: rgb(82, 81, 81);
+}
+
+
+
+input{
+   width: 280px;
+   height: 30px;
+   background: rgba(253, 253, 253, 0.979);
+   border: 1px solid rgb(126, 126, 126);
+   border-radius: 8px;
+   padding: 10px;
+   margin :auto;
+   box-shadow:0px 0px 4px -3px;
+   font-size: medium;
+   position: absolute;
+   left: 9px;
+   bottom: -15px;
+   color: rgb(110, 110, 110);
+
+}
+label{
+   position: absolute;
+   top: 6px;
+   left: 10px;
+}
+
+span{
+   color: rgb(170, 58, 58);
+   position: absolute;
+   left: 12px;
+   bottom: -30px;
+}
+.name{
+   width: 320px;
+   height: 60px;
+   margin: auto;
+   top: 100px;
+   border: 1px solid rgb(168, 167, 167);
+   box-shadow: 0px 0px 5px -1px rgb(169, 179, 180);
+   background-color: rgba(188, 190, 190, 0.226);
+   border-radius: 0px 0px 8px 8px;
+   position: absolute;
+   left: 28px;
+   bottom: 210px;
+   color: rgb(82, 81, 81);
+}
+
+
+/*NUMERO VALIDO*/
+#infValid{
+   background-color: rgb(226, 216, 216);
+   width: 350px;
+   height: 500px;
+   margin: auto;
+   padding: 15px;
+   border-radius:20px;
+   box-shadow: 0px 0px 90px 3px rgb(133, 133, 141);
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   position: relative;
+   display: none;
+}
+
+
+#infValid img{
+   position: absolute;
+   width: 150px;
+   top: 250px;
+   right:110px ;
+
+}
+
+
+#infValid h3{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: rgb(39, 168, 39);
+   font-style: italic;
+   font-size:18px;
+   position: absolute;
+   bottom:300px;
+   left: 30px;
+   margin: auto;
+}
+
+
+/*NUMERO VALIDO*/
+#noValid{
+   background-color: rgb(226, 216, 216);
+   width: 350px;
+   height: 500px;
+   margin: auto;
+   padding: 15px;
+   border-radius:20px;
+   box-shadow: 0px 0px 90px 3px rgb(133, 133, 141);
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   position: relative;
+   display: none;
+}
+
+#noValid img{
+   width: 230px;
+   top: 220px;
+   position: absolute;
+   left: 75px;
+}
+#noValid button{
+   width: 200px;
+   height: 50px;
+   border-radius: 8px;
+   border: 0px solid;
+   background-color: rgb(22, 22, 48);
+   color:rgba(236, 235, 232, 0.705) ;
+   position: absolute;
+   bottom: 40px;
+   left: 88px;
+   font-size: 15px;
+   box-shadow: 0px 0px 15px 2px rgb(92, 91, 91);
+} 
+#again:hover{
+   background-color:rgba(82, 126, 113, 0.925);
+}
+#noValid h3{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: rgb(160, 0, 0);
+   font-style: italic;
+   font-size: 20px;
+   position: absolute;
+   bottom: 280px;
+   left: 130px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
