@@ -36,5 +36,5 @@ La página web, debe ser amigable a la percepción visual del usuario, por lo qu
 * Crear solo punto focal que nos direccione al llenado de datos.
 * Se utilizó un color neutro en el botones de “validar”, “regresar”, “intentar otra vez” para que puedan ser reconocido inmediatamente por el usuario. 
 
-***3.2 Link de la página:***
+***3.3 Link de la página:***
 https://carorlq.github.io/DEV005-card-validation/
